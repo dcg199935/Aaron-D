@@ -25,4 +25,30 @@ p{
 	color:yellow;
 }
 
+@keyframes yy{
+  	0%{
+  		transform:translate(0,0);
+  	}
+  	100%{
+  		transform:translate(-100px,0);
+  	}
+  }
+  #circle02 {
+
+      position: absolute;
+	  z-index:4;
+      width: 400px;
+      height: 400px;
+      background-color: yellow;
+     /* margin-top: 100px;
+      margin-bottom: 100px;
+      margin-right: 150px;
+      margin-left: 450px;*/
+      margin-left:325px;
+      margin-top:100px;
+      border-radius: 50%;
+      animation:yy 0.5s infinite alternate;
+     
+    }
+
  
