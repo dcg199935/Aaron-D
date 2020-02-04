@@ -6,6 +6,13 @@
   margin: 60px;
 }
 
+#square {
+  width: 1000px;
+  padding: 40px;
+  margin: 0px;
+  background-color: yellow;
+}
+
 #line {
   color: yellow;
   margin-left: 60px;
