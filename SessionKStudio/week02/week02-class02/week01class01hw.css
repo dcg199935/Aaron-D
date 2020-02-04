@@ -1,7 +1,9 @@
 #title {
-  margin-top: 100px;
-  margin-left: 80px;
-  color: #f40f36;
+  color: black;
+  background-color:#C63044;
+  width: 300px;
+  padding: 40px;
+  margin: 60px;
 }
 
 #trans {
@@ -21,6 +23,22 @@
   margin-left: 150px;
 }
 
+#i{
+    color:black;
+    margin-left:1000px;
+    background-color: #E5622E;
+    width: 50px;
+    padding: 40px;
+    margin: 20px;
+
+}
+.circle {
+  height: 250px;
+  width: 250px;
+  background-color: red;
+  border-radius: 50%;
+  margin-left：800px;
+}
 body {
   background-color: black;
 }
