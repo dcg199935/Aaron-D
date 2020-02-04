@@ -1,0 +1,26 @@
+#title {
+  margin-top: 100px;
+  margin-left: 80px;
+  color: #f40f36;
+}
+
+#trans {
+  background-color: #336dff;
+  width: 460px;
+  padding: 40px;
+  margin: 60px;
+  margin-left: 300px;
+}
+
+#letter {
+  background-color: green;
+  color: white;
+  width: 460px;
+  padding: 40px;
+  margin: 20px;
+  margin-left: 150px;
+}
+
+body {
+  background-color: black;
+}

@@ -1,54 +1,47 @@
-h1{ 
-    color:#2DE0CA;
-	font-family:Blackoak Std;
-	font-size:25px;
-	font-style:italic;
-	margin-top: 15px;
-	margin-left: 160px
+h1 {
+  border-color: #2de0ca;
+  font-family: Blackoak Std;
+  font-size: 25px;
+  font-style: italic;
+  margin-top: 15px;
+  margin-left: 160px;
 }
 
-h3{
-	margin-top: 15px;
-	margin-left: 160px;
-	font-family: Luminari;
-	font-size:20px;
-
+h3 {
+  margin-top: 15px;
+  margin-left: 160px;
+  font-family: Luminari;
+  font-size: 20px;
 }
 
-p{
-	margin-left: 970px;
-	margin-top: -45px;
-	font-family: Luminari;
-	font-family:Blackoak Std;
-	font-size:25px;
-	font-style:italic;
-	color:yellow;
+p {
+  margin-left: 970px;
+  margin-top: -45px;
+  font-family: Luminari;
+  font-family: Blackoak Std;
+  font-size: 25px;
+  font-style: italic;
+  color: yellow;
 }
 
-@keyframes yy{
-  	0%{
-  		transform:translate(0,0);
-  	}
-  	100%{
-  		transform:translate(-100px,0);
-  	}
+@keyframes yy {
+  0% {
+    transform: translate(0, 0);
   }
-  #circle02 {
-
-      position: absolute;
-	  z-index:4;
-      width: 400px;
-      height: 400px;
-      background-color: yellow;
-     /* margin-top: 100px;
+  100% {
+    transform: translate(-100px, 0);
+  }
+}
+#circle02 {
+  position: absolute;
+  z-index: 4;
+  width: 400px;
+  height: 400px;
+  background-color: yellow;
+  /* margin-top: 100px;
       margin-bottom: 100px;
       margin-right: 150px;
       margin-left: 450px;*/
-      border-radius: 50%;
-      animation:yy 0.5s infinite alternate;
-     
-    }
-
-
-  
- 
+  border-radius: 50%;
+  animation: yy 0.5s infinite alternate;
+}
