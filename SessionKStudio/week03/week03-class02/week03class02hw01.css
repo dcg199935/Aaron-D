@@ -1,0 +1,72 @@
+body {
+  background-color: black;
+}
+
+body {
+  animation: colorchange 50s infinite; /* animation-name followed by duration in seconds*/
+  /* you could also use milliseconds (ms) or something like 2.5s */
+  -webkit-animation: colorchange 50s infinite; /* Chrome and Safari */
+}
+
+@keyframes colorchange {
+  0% {
+    background: black;
+  }
+  25% {
+    background: #091849;
+  }
+  50% {
+    background: rgb(1, 39, 13);
+  }
+  75% {
+    background: rgb(53, 18, 1);
+  }
+  100% {
+    background: black;
+  }
+}
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */ {
+  0% {
+    background: black;
+  }
+  25% {
+    background: #091849;
+  }
+  50% {
+    background: rgb(1, 39, 13);
+  }
+  75% {
+    background: rgb(53, 18, 1);
+  }
+  100% {
+    background: black;
+  }
+}
+
+#png {
+  width: 1000px;
+  margin-left: 350px;
+  margin-top: 100px;
+  position: relative;
+  z-index: 3;
+}
+
+#circle {
+  margin-top: -200px;
+  margin-left: 70px;
+  position: relative;
+  z-index: 1;
+}
+
+#trans {
+  color: black;
+  width: 460px;
+  padding: 40px;
+  margin: 20px;
+  margin-left: 800px;
+  margin-top: -550px;
+  font-family: Luminari;
+  font-size: 21px;
+  position: relative;
+  z-index: 2;
+}

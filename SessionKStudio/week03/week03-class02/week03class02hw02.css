@@ -1,0 +1,133 @@
+#things {
+  font-size: 100px;
+  font-family: Letter Gothic Std;
+  margin-left: 200px;
+  color: black;
+  background-color: white;
+  width: 460px;
+  padding: 350px;
+  margin: 130px;
+}
+
+p {
+  border-color: black;
+  border-style: solid;
+  border-radius: 40px;
+  margin-left: 500px;
+}
+
+#a {
+  font-size: 100px;
+  font-family: Letter Gothic Std;
+  margin-left: 200px;
+  color: black;
+  background-color: white;
+  width: 460px;
+  padding: 350px;
+  margin: 130px;
+}
+
+#sixties {
+  font-size: 100px;
+  font-family: Letter Gothic Std;
+  margin-left: 200px;
+  color: black;
+  background-color: white;
+  width: 460px;
+  padding: 350px;
+  margin: 130px;
+}
+
+@keyframes yy {
+  0% {
+    transform: translate(500px, 0);
+  }
+  100% {
+    transform: translate(700px, 0);
+  }
+}
+#circle01 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  /* margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 450px;*/
+  border-radius: 50%;
+  animation: yy 0.5s infinite alternate;
+}
+
+#trans {
+  font-size: 17px;
+  margin-left: 440px;
+  margin-top: 300px;
+  font-family: Letter Gothic Std;
+}
+
+#letter {
+  font-size: 17px;
+  margin-left: 300px;
+  font-family: Letter Gothic Std;
+}
+
+#the {
+  font-size: 100px;
+  font-family: Letter Gothic Std;
+  margin-left: -200px;
+  color: black;
+  background-color: white;
+  width: 460px;
+  padding: 350px;
+  margin: 130px;
+}
+
+#room {
+  font-size: 17px;
+  margin-left: 800px;
+  margin-top: -780px;
+  font-family: Letter Gothic Std;
+}
+
+#would {
+  margin-top: 600px;
+  margin-left: 10px;
+  padding: 150px;
+  margin: 300px;
+  font-size: 100px;
+  font-family: Letter Gothic Std;
+}
+
+ul {
+  font-family: Letter Gothic Std;
+  font-size: 17px;
+  margin-left: 300px;
+  margin-top: -220px;
+}
+
+#circle02 {
+  height: 50px;
+  width: 50px;
+  background-color: darkgrey;
+  border-radius: 50%;
+  margin-left: 100px;
+}
+
+#circle03 {
+  height: 50px;
+  width: 50px;
+  background-color: darkgrey;
+  border-radius: 50%;
+  margin-left: 500px;
+  margin-top: -50px;
+}
+
+#circle04 {
+  height: 50px;
+  width: 50px;
+  background-color: darkgrey;
+  border-radius: 50%;
+  margin-left: 300px;
+  margin-top: -50px;
+}
