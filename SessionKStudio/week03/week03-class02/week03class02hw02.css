@@ -3,6 +3,7 @@ a {
   margin-top: 50px;
   font-family: Letter Gothic Std;
   font-size: larger;
+  position: fixed;
 }
 
 a:visited {

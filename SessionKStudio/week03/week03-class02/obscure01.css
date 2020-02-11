@@ -1,0 +1,71 @@
+#things {
+  background-color: #f9f4bd;
+  width: 1500px;
+  padding: 10px;
+  margin: 0px;
+  position: fixed;
+}
+#png {
+  width: 1000px;
+  margin-left: 200px;
+  margin-top: 130px;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: black;
+  font-family: Luminari;
+  margin-left: 500px;
+  font-size: 30px;
+}
+
+p {
+  color: #f9f4bd;
+  font-size: 15px;
+  font-family: Chaparral Pro;
+}
+
+#room {
+  width: 300px;
+  margin-left: 520px;
+  margin-top: 20px;
+  border-color: #f9f4bd;
+  border-style: double;
+  padding: 20px;
+}
+
+#sofa {
+  width: 200px;
+  margin-left: 200px;
+  margin-top: -700px;
+  position: relative;
+}
+
+#pot {
+  width: 150px;
+  margin-left: 600px;
+  margin-top: -700px;
+  position: relative;
+}
+
+#more {
+  margin-top: 30px;
+  margin-left: 850px;
+}
+
+a {
+  font-family: Luminari;
+  font-size: 20px;
+  margin-left: 300px;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #15edc9;
+}
