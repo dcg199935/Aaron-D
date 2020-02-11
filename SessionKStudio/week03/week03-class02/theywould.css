@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+}
+
+.they {
+  background-color: #fcce0d;
+  color: black;
+  width: 300px;
+  padding: 40px;
+  margin: 20px;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+
+#t {
+  color: orange;
+  margin-left: 200px;
+  margin-top: -700px;
+}
+
+#h {
+  color: orangered;
+  margin-left: 100px;
+  margin-top: 150px;
+}
+
+#e {
+  color: green;
+  margin-left: 400px;
+  margin-top: 60px;
+}
+
+#y {
+  color: blue;
+  margin-left: 310px;
+  margin-top: 260px;
+}
+
+#w {
+  color: purple;
+  margin-left: 1000px;
+  margin-top: -600px;
+}
+
+#o {
+  color: darkred;
+  margin-left: 1200px;
+}
+
+#u {
+  color: #0dfcc3;
+  margin-left: 1100px;
+  margin-top: 150px;
+}
+
+#l {
+  color: red;
+  margin-left: 1150px;
+  margin-top: 150px;
+}
+
+#d {
+  color: greenyellow;
+  margin-left: 1250px;
+  margin-top: 165px;
+}

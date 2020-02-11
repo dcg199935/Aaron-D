@@ -1,12 +1,27 @@
+a {
+  margin-left: 130px;
+  margin-top: 50px;
+  font-family: Letter Gothic Std;
+  font-size: larger;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #15ed71;
+}
+
 #things {
   font-size: 100px;
   font-family: Letter Gothic Std;
-  margin-left: 200px;
+  margin-left: 130px;
+  margin-top: 70px;
   color: black;
   background-color: white;
   width: 460px;
   padding: 350px;
-  margin: 130px;
 }
 
 p {
