@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  font-size: 80px;
+  margin-top: -850px;
+  margin-left: 600px;
+}
+
+h2 {
+  color: white;
+  font-size: 80px;
+  margin-top: -850px;
+  margin-left: 400px;
+}
+
+p {
+  font-family: Chaparral Pro;
+  color: white;
+}
