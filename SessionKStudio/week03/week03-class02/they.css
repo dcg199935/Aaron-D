@@ -19,4 +19,5 @@ h2 {
 p {
   font-family: Chaparral Pro;
   color: white;
+  position: fixed;
 }
