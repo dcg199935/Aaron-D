@@ -28,15 +28,17 @@ a:hover {
   color: #15edc9;
 }
 
-h2 {
+h1 {
   color: white;
-  font-size: 30px;
-  margin-top: -850px;
-  margin-left: 400px;
+  font-size: 50px;
+  margin-left: 670px;
+  margin-top: -100px;
 }
 
-p {
+ul {
   font-family: Chaparral Pro;
   color: white;
-  position: fixed;
+  position: relative;
+  margin-left: 300px;
+  margin-top: 50px;
 }

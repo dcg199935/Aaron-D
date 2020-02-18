@@ -1,0 +1,14 @@
+body {
+  background-color: #008f9a;
+}
+
+#sofa {
+  width: 820px;
+  margin-left: 260px;
+}
+
+p {
+  font-size: 100px;
+  margin-left: 300px;
+  margin-top: -500px;
+}
