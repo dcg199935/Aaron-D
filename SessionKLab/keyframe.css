@@ -1,0 +1,17 @@
+@keyframes yy {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100px, 0);
+  }
+}
+
+#circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: mediumspringgreen;
+  position: absolute;
+  animation: yy 0.5s infinite alternate;
+}

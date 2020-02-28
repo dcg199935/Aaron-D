@@ -1,0 +1,109 @@
+body {
+  background-color: black;
+}
+h1 {
+  font-family: Bodoni Ornaments;
+  font-size: 200px;
+  color: rgb(250, 10, 130);
+  margin-left: 200px;
+  position: relative;
+}
+
+@keyframes yy {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(900px, 0);
+  }
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(250, 10, 130);
+  position: absolute;
+  z-index: 3;
+  margin-left: 150px;
+  animation: yy 1.5s infinite alternate;
+}
+
+@keyframes yu {
+  0% {
+    transform: translate(900px, 0);
+  }
+  100% {
+    transform: translate(0px, 0);
+  }
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(18, 250, 10);
+  position: absolute;
+  margin-left: 150px;
+  z-index: 3;
+  animation: yu 1.5s infinite alternate;
+}
+
+@keyframes yp {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: rgb(250, 10, 130);
+  }
+}
+
+.box3 {
+  width: 900px;
+  height: 900px;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 250px;
+  z-index: 2;
+  animation: yp 1.5s infinite alternate;
+}
+
+@keyframes yw {
+  0% {
+    transform: matrix(0);
+  }
+  100% {
+    transform: matrix(1, 2, 3, 4, 5, 6);
+  }
+}
+
+.box4 {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 350px;
+  background-color: pink;
+  z-index: 4;
+  animation: yw 1.5s infinite alternate;
+}
+
+@keyframes yr {
+  0% {
+    transform: matrix(0);
+  }
+  100% {
+    transform: matrix(6, 5, 4, 3, 2, 1);
+  }
+}
+
+.box5 {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 350px;
+  background-color: palevioletred;
+  z-index: 4;
+  animation: yr 1.5s infinite alternate;
+}

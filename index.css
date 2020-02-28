@@ -24,12 +24,13 @@ p {
   color: yellow;
 }
 
-@keyframes yy {
-  0% {
-    transform: translate(0, 0);
-  }
+@keyframes bounce from {
+  0%,
   100% {
-    transform: translate(-100px, 0);
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(100px);
   }
 }
 #circle02 {
@@ -43,5 +44,5 @@ p {
       margin-right: 150px;
       margin-left: 450px;*/
   border-radius: 50%;
-  animation: yy 0.5s infinite alternate;
+  animation: bounce 2s 10 alternate-reverse;
 }
