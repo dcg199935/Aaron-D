@@ -1,13 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href=".css" />
+    <link rel="stylesheet" type="text/css" href="Home.css" />
 
     <title>HOMEPAGE</title>
   </head>
   <body>
-    <h1>WELCOME TO BOY FRONT</h1>
-    <h2>ID:_________________</h2>
-    <h2>PASSWORD:________</h2>
+    <marquee behavior="scroll" direction="left" id="flowing"
+      >WELCOME TO BOY FRONT, THIS IS AN EXCLUSIVE SITE ONLY OPEN FOR OUR
+      GUESTS</marquee
+    >
+
+    <div class="pass">
+      <form action="mainpage.html">
+        <label for="fname">ACCOUNT:</label><br />
+        <input type="text" id="fname" name="fname" value="User" /><br />
+        <label for="lname">PASSWORD:</label><br />
+        <input
+          type="text"
+          id="lname"
+          name="lname"
+          value="I love boys"
+        /><br /><br />
+        <input type="submit" value="LOG IN" />
+      </form>
+    </div>
+
+    <div class="container">
+      <h1 id="welcome">WELCOME TO BOY FRONT</h1>
+      <div id="box1"></div>
+      <div id="box2"></div>
+      <div id="box3"></div>
+    </div>
   </body>
 </html>
