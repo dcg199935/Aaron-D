@@ -2,6 +2,34 @@ body {
   background-color: #2b864c;
 }
 
+#button {
+  font-family: Nueva Std;
+  font-size: 18pt;
+  color: #2b864c;
+  font-style: italic;
+  -webkit-text-stroke-width: 0.8px;
+  margin-left: 400px;
+  width: 80px;
+  border-radius: 25px;
+  background-color: #e63e9a;
+}
+
+.white {
+  width: 800px;
+  height: 500px;
+  background-color: white;
+  margin-top: -393px;
+  margin-left: 350px;
+  position: ;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #e63e9a;
+}
 #boyfront {
   font-family: Nueva Std;
   font-size: 38pt;
@@ -39,8 +67,8 @@ body {
   height: 600px;
   background-color: #e63e9a;
   position: relative;
-  margin-left: -380px;
-  margin-top: -50px;
+  margin-left: 20px;
+  margin-top: 50px;
   z-index: 1;
 }
 
@@ -49,7 +77,7 @@ body {
   width: 190px;
   height: 40px;
   background-color: #2b864c;
-  margin-left: -380px;
+  margin-left: 20px;
   font-family: Nueva Std;
   font-size: 28pt;
   color: white;
@@ -63,7 +91,7 @@ body {
   width: 190px;
   height: 40px;
   background-color: #2b864c;
-  margin-left: -380px;
+  margin-left: 20px;
 
   font-family: Nueva Std;
   font-size: 28pt;
@@ -78,7 +106,7 @@ body {
   width: 190px;
   height: 40px;
   background-color: #2b864c;
-  margin-left: -380px;
+  margin-left: 20px;
 
   font-family: Nueva Std;
   font-size: 28pt;
@@ -92,7 +120,7 @@ body {
   width: 190px;
   height: 40px;
   background-color: #2b864c;
-  margin-left: -380px;
+  margin-left: 20px;
 
   font-family: Nueva Std;
   font-size: 28pt;
@@ -106,7 +134,7 @@ body {
   width: 190px;
   height: 40px;
   background-color: #2b864c;
-  margin-left: -380px;
+  margin-left: 20px;
 
   font-family: Nueva Std;
   font-size: 28pt;
@@ -121,7 +149,7 @@ body {
   width: 190px;
   height: 40px;
   background-color: #2b864c;
-  margin-left: -380px;
+  margin-left: 20px;
 
   font-family: Nueva Std;
   font-size: 28pt;
@@ -131,7 +159,15 @@ body {
   -webkit-text-stroke-color: black;
 }
 
+#rere {
+  margin-top: -1700px;
+}
+
 .images {
   margin-left: 400px;
   margin-top: 100px;
+}
+
+#boy7 {
+  margin-top: -300px;
 }

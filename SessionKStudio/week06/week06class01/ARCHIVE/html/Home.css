@@ -42,7 +42,7 @@ h2 {
 #flowing {
   font-family: Nueva Std;
   font-size: 18pt;
-  color: white;
+  color: black;
   font-style: italic;
   position: relative;
   width: 1450px;
@@ -63,11 +63,11 @@ h2 {
 
 #box1 {
   width: 700px;
-  height: 400px;
+  height: 390px;
   background-color: #2b864c;
   position: relative;
   z-index: 1;
-  margin-left: 385px;
+  margin-left: 341px;
   margin-top: -130px;
 }
 
@@ -76,8 +76,32 @@ h2 {
   height: 230px;
   background-color: white;
   margin-left: 470px;
-  margin-top: -290px;
+  margin-top: -270px;
   position: relative;
   z-index: 3;
   border-radius: 25px;
+}
+
+.glow {
+  font-family: Nueva Std;
+  font-size: 22pt;
+  margin-top: 90px;
+  font-style: italic;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
 }
