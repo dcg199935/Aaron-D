@@ -70,7 +70,12 @@ h2 {
   margin-left: 341px;
   margin-top: -130px;
 }
-
+#button {
+  font-family: Nueva Std;
+  font-size: 22pt;
+  font-style: italic;
+  color: #fff;
+}
 #box3 {
   width: 430px;
   height: 230px;
