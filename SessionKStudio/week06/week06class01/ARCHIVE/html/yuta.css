@@ -118,7 +118,7 @@ a:hover {
 
   font-family: Nueva Std;
   font-size: 28pt;
-  color: white;
+  color: #e63e9a;
   font-style: italic;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
@@ -138,7 +138,6 @@ a:hover {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
-
 .div7 {
   grid-area: 7 / 1 / 8 / 2;
   width: 190px;
@@ -158,31 +157,23 @@ a:hover {
   width: 800px;
   height: 500px;
   background-color: white;
-  margin-top: -360px;
+  margin-top: -315px;
   margin-left: 400px;
   position: ;
 }
-.images {
-  margin-left: 450px;
-  margin-top: -450px;
-}
 
+.images {
+  margin-left: 950px;
+  margin-top: -250px;
+}
+#boy1 {
+  margin-left: 470px;
+  margin-top: -400px;
+}
 #boy2 {
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 #boy3 {
-  margin-left: 20px;
-}
-
-#boy4 {
-  margin-left: 20px;
-}
-
-#boy5 {
-  margin-top: 20px;
-}
-
-#boy6 {
-  margin-left: 20px;
+  margin-left: 50px;
 }

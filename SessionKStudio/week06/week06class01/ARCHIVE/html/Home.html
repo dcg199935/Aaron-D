@@ -34,9 +34,17 @@
     </div>
     <h3 class="glow">BOYFRONT</h3>
 
-    <audio autoplay="autoplay" controls="controls">
+    <audio id="myAudio" controls autoplay>
       <source src="RunawayGirl.ogg" />
       <source src="RunawayGirl.mp3" />
     </audio>
+
+    <p id="demo"></p>
+
+    <script>
+         function myFunction() {
+      var x = document.getElementById("myAudio").autoplay;
+      document.getElementById("demo").innerHTML = x;
+    </script>
   </body>
 </html>
