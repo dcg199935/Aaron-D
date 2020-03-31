@@ -152,7 +152,20 @@ a:hover {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
+.div8 {
+  grid-area: 8 / 1 / 9 / 2;
+  width: 190px;
+  height: 40px;
+  background-color: #2b864c;
+  margin-left: 20px;
 
+  font-family: Nueva Std;
+  font-size: 28pt;
+  color: white;
+  font-style: italic;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
 .white {
   width: 800px;
   height: 500px;

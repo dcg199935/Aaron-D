@@ -75,7 +75,7 @@ a:hover {
 
   font-family: Nueva Std;
   font-size: 28pt;
-  color: #e63e9a;
+  color: white;
   font-style: italic;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
@@ -118,7 +118,7 @@ a:hover {
 
   font-family: Nueva Std;
   font-size: 28pt;
-  color: white;
+  color: #e63e9a;
   font-style: italic;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
@@ -161,7 +161,50 @@ a:hover {
 
   font-family: Nueva Std;
   font-size: 28pt;
-  color: white;
+  color: #e63e9a;
+  font-style: italic;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.div9 {
+  grid-area: 9 / 1 / 10 / 2;
+  width: 190px;
+  height: 40px;
+  background-color: #e63e9a;
+  margin-left: 20px;
+
+  font-family: Nueva Std;
+  font-size: 28pt;
+  color: #e63e9a;
+  font-style: italic;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.div10 {
+  grid-area: 10 / 1 / 11 / 2;
+  width: 190px;
+  height: 40px;
+  background-color: #e63e9a;
+  margin-left: 20px;
+
+  font-family: Nueva Std;
+  font-size: 28pt;
+  color: #e63e9a;
+  font-style: italic;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.div11 {
+  grid-area: 11 / 1 / 12 / 2;
+  width: 190px;
+  height: 40px;
+  background-color: #2b864c;
+  margin-left: 20px;
+
+  font-family: Nueva Std;
+  font-size: 28pt;
+  color: #e63e9a;
   font-style: italic;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
@@ -170,20 +213,23 @@ a:hover {
   width: 800px;
   height: 500px;
   background-color: white;
-  margin-top: -415px;
-  margin-left: -50px;
+  margin-top: -270px;
+  margin-left: 400px;
   position: ;
 }
 
 .images {
-  margin-left: 450px;
-  margin-top: -250px;
+  margin-left: 950px;
+  margin-top: -450px;
 }
 #boy1 {
-  margin-left: 00px;
-  margin-top: 200px；;
+  margin-left: 470px;
+  margin-top: -400px;
+}
+#boy2 {
+  margin-left: 50px;
 }
 
-#boy2 {
+#boy3 {
   margin-left: 50px;
 }

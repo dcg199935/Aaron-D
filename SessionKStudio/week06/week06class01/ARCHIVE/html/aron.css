@@ -156,7 +156,7 @@ a:hover {
   grid-area: 8 / 1 / 9 / 2;
   width: 190px;
   height: 40px;
-  background-color: #e63e9a;
+  background-color: #2b864c;
   margin-left: 20px;
 
   font-family: Nueva Std;
@@ -209,19 +209,21 @@ a:hover {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
+
 .white {
   width: 800px;
   height: 500px;
   background-color: white;
-  margin-top: -270px;
+  margin-top: -315px;
   margin-left: 400px;
   position: ;
 }
 
 .images {
   margin-left: 950px;
-  margin-top: -450px;
+  margin-top: -250px;
 }
+
 #boy1 {
   margin-left: 470px;
   margin-top: -400px;
