@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="china.css" />
+
+    <title>HOME</title>
+  </head>
+  <body>
+    <div id="laptop">
+      <img class="dragon" src="dragon.png" />
+      <div class="headline">CHINA CHALET</div>
+      <div class="title">NEO CHINESE RESTAURANT and SPACE</div>
+      <img class="delivery" src="delivery.png" />
+      <div class="back"></div>
+
+      <p>
+        Welcome to China Chalet! We have been serving our classic & comtemporary
+        Chinese cuisine to businesses and residents in Manhattan's Financial
+        District since 1975 and we are proud to announce the opening our our NEW
+        MIDTOWN LOCATION!. Our diversified menus of Dim Sum, authentic Cantonese
+        and Szechuan cuisines and an American selection insures that there is
+        something for everyone. Make a reservation or place an order from our
+        new inter-active web site - try it once Wonton Soup 3.95
+      </p>
+    </div>
+
+    <div id="iphone">
+      <div id="menu">
+        <div class="headline">CHINA CHALET 華庭</div>
+        <div class="head">WE DELIVER</div>
+
+        <img class="meal" src="pic7.JPG" />
+        <h1>WE DELIVER</h1>
+        <div class="dishes">
+          <label class="container"
+            >Wonton Soup
+            <input type="checkbox" checked="checked" />
+            <span class="checkmark"></span>
+          </label>
+          <br />
+          <label class="container"
+            >Chicken Rice Soup
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <br />
+          <label class="container"
+            >Wonton with Egg Drop
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <br />
+          <label class="container"
+            >Velvet Corn Soup
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <br />
+          <label class="container"
+            >Chicken Noodle Soup
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <br />
+          <label class="container"
+            >Chicken Noodle Soup
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <br />
+
+          Velvet Corn Soup 4.25
+          <br />
+          Chicken Chowder 4.95
+          <br />
+          Seafood Soup 5.95
+        </div>
+        <img class="table" src="table.png" />
+      </div>
+    </div>
+
+    <script>
+      var slideshows = document.querySelectorAll(
+        '[data-component="slideshow"]'
+      );
+      slideshows.forEach(initSlideShow);
+
+      function initSlideShow(slideshow) {
+        var slides = document.querySelectorAll(
+          `#${slideshow.id} [role="list"] .slide`
+        );
+
+        var index = 0,
+          time = 5000;
+        slides[index].classList.add("active");
+
+        setInterval(() => {
+          slides[index].classList.remove("active");
+
+          index++;
+          if (index === slides.length) index = 0;
+
+          slides[index].classList.add("active");
+        }, time);
+      }
+    </script>
+  </body>
+</html>

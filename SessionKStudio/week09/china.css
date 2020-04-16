@@ -1,0 +1,160 @@
+body {
+  background-color: white;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #iphone {
+    display: block;
+  }
+
+  #laptop {
+    display: none;
+  }
+
+  body {
+    background-color: black;
+  }
+
+  .meal {
+    width: 80%;
+    margin-left: 35px;
+  }
+
+  .table {
+    width: 100%;
+  }
+  .dragon {
+    width: 70px;
+    margin-top: 40px;
+    margin-left: 140px;
+  }
+
+  h1 {
+    font-family: Cochin;
+    font-style: italic;
+    font-size: 300%;
+    color: #a0252b;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #a0252b;
+    margin-left: 15px;
+  }
+
+  .dragon {
+    -webkit-animation: rotation 2s infinite linear;
+  }
+
+  @-webkit-keyframes rotation {
+    from {
+      -webkit-transform: rotate(360deg);
+    }
+    to {
+      -webkit-transform: rotate(0deg);
+    }
+  }
+  .headline {
+    font-family: Luminari;
+    font-size: 150%;
+    color: #f4d219;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #a0252b;
+    margin-left: 15px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 5;
+  }
+
+  .delivery {
+    width: 900px;
+    margin-left: 200px;
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .dishes {
+    color: #a0252b;
+    font-family: cochin;
+    font-style: italic;
+    font-size: 150%;
+    margin-left: 15px;
+  }
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  #laptop {
+    display: block;
+  }
+  #iphone {
+    display: none;
+  }
+  body {
+    background-color: #a0252b;
+  }
+  .back {
+    position: relative;
+    z-index: 1;
+    width: 1220px;
+    height: 1000px;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: -820px;
+  }
+  .dragon {
+    position: relative;
+    margin-left: 620px;
+    margin-top: 30px;
+    width: 80px;
+    z-index: 3;
+  }
+
+  .dragon {
+    -webkit-animation: rotation 2s infinite linear;
+  }
+
+  @-webkit-keyframes rotation {
+    from {
+      -webkit-transform: rotate(360deg);
+    }
+    to {
+      -webkit-transform: rotate(0deg);
+    }
+  }
+  .headline {
+    font-family: Luminari;
+    font-size: 60px;
+    color: #f4d219;
+    -webkit-text-stroke-width: 1.3px;
+    -webkit-text-stroke-color: #a0252b;
+    margin-left: 450px;
+    margin-top: 15px;
+    position: relative;
+    z-index: 5;
+  }
+
+  .title {
+    font-family: Cochin;
+    font-style: italic;
+    color: #a0252b;
+    margin-left: 530px;
+    position: relative;
+    z-index: 3;
+  }
+
+  .delivery {
+    width: 600px;
+    margin-left: 370px;
+    margin-top: -30px;
+    position: relative;
+    z-index: 2;
+  }
+
+  p {
+    font-family: Cochin;
+    color: #a0252b;
+    width: 700px;
+    margin-left: 350px;
+    margin-top: -150px;
+    position: relative;
+    z-index: 5;
+  }
+}

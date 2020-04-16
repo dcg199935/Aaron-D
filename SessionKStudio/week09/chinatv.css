@@ -1,0 +1,47 @@
+body {
+  background-color: red;
+}
+
+.dragon {
+  margin-left: 620px;
+  margin-top: 30px;
+  width: 80px;
+}
+
+.dragon {
+  -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(360deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+  }
+}
+.headline {
+  font-family: Luminari;
+  font-size: 160px;
+  color: #f4d219;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #a0252b;
+  margin-left: 400px;
+  margin-top: 15px;
+  position: relative;
+  z-index: 5;
+}
+
+.title {
+  font-family: Cochin;
+  font-style: italic;
+  color: #a0252b;
+  margin-left: 530px;
+  position: relative;
+  z-index: 2;
+}
+
+#myAudio {
+  margin-left: 550px;
+  margin-top: 50px;
+}
