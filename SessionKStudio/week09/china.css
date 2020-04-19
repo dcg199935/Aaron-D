@@ -15,18 +15,30 @@ body {
     background-color: black;
   }
 
+  [data-component="slideshow"] .slide {
+    display: none;
+    text-align: center;
+  }
+
+  [data-component="slideshow"] .slide.active {
+    display: block;
+  }
+  .slide {
+    margin-left: 5px;
+  }
+
   .meal {
     width: 80%;
     margin-left: 35px;
   }
 
-  .table {
-    width: 100%;
-  }
   .dragon {
+    position: relative;
+    width: 100px;
+    z-index: 7;
     width: 70px;
-    margin-top: 40px;
-    margin-left: 140px;
+    margin-top: -30px;
+    margin-left: 280px;
   }
 
   h1 {
@@ -36,7 +48,7 @@ body {
     color: #a0252b;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #a0252b;
-    margin-left: 15px;
+    margin-left: 30px;
   }
 
   .dragon {
@@ -53,14 +65,21 @@ body {
   }
   .headline {
     font-family: Luminari;
-    font-size: 150%;
-    color: #f4d219;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #a0252b;
-    margin-left: 15px;
-    margin-top: 20px;
+    font-size: 48.1px;
+    color: #a0252b;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #f4d219;
+
     position: relative;
     z-index: 5;
+  }
+
+  .label {
+    position: relative;
+    width: 118%;
+    margin-left: -30px;
+    margin-top: -110px;
+    z-index: 6;
   }
 
   .delivery {
@@ -76,7 +95,12 @@ body {
     font-family: cochin;
     font-style: italic;
     font-size: 150%;
-    margin-left: 15px;
+    margin-left: 30px;
+  }
+  .cai {
+    width: 320px;
+    margin-left: 25px;
+    margin-top: -70px;
   }
 }
 
@@ -87,22 +111,18 @@ body {
   #iphone {
     display: none;
   }
+
   body {
-    background-color: #a0252b;
+    overflow: hidden;
   }
-  .back {
-    position: relative;
-    z-index: 1;
-    width: 1220px;
-    height: 1000px;
-    background-color: white;
-    margin-left: 100px;
-    margin-top: -820px;
+  body {
+    background: linear-gradient(to right, #f4d219 50%, black 50%);
   }
+
   .dragon {
     position: relative;
-    margin-left: 620px;
-    margin-top: 30px;
+    margin-left: 320px;
+    margin-top: 40px;
     width: 80px;
     z-index: 3;
   }
@@ -121,11 +141,11 @@ body {
   }
   .headline {
     font-family: Luminari;
-    font-size: 60px;
+    font-size: 90px;
     color: #f4d219;
-    -webkit-text-stroke-width: 1.3px;
+    -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: #a0252b;
-    margin-left: 450px;
+    margin-left: 15px;
     margin-top: 15px;
     position: relative;
     z-index: 5;
@@ -135,26 +155,67 @@ body {
     font-family: Cochin;
     font-style: italic;
     color: #a0252b;
-    margin-left: 530px;
+    margin-left: 30px;
+    margin-top: -10px;
+    font-size: 37px;
     position: relative;
     z-index: 3;
   }
 
-  .delivery {
-    width: 600px;
-    margin-left: 370px;
-    margin-top: -30px;
-    position: relative;
-    z-index: 2;
+  #text {
+    font-size: 25px;
+    font-family: helvetica;
+    color: #a0252b;
+    width: 660px;
+    margin-left: 25px;
+    margin-top: 20px;
+    position: fixed;
+    z-index: 5;
   }
 
-  p {
-    font-family: Cochin;
+  #textt {
+    font-size: 25px;
+    font-family: helvetica;
     color: #a0252b;
-    width: 700px;
-    margin-left: 350px;
+    margin-left: 25px;
+    margin-top: 300px;
+  }
+
+  #myAudio {
+    margin-left: 990px;
+    margin-top: 120px;
+    color: #f4d219;
+    filter: sepia(80%) saturate(20%) grayscale(1) contrast(99%) invert(12%);
+    width: 200px;
+    height: 25px;
+  }
+
+  .blink {
+    animation: fadein 0.2s infinite;
+    margin-left: 440px;
     margin-top: -150px;
-    position: relative;
-    z-index: 5;
+    position: absolute;
+    z-index: 9;
+  }
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  [data-component="slideshow"] .slide {
+    display: none;
+    text-align: center;
+  }
+
+  [data-component="slideshow"] .slide.active {
+    display: block;
+  }
+  .slide {
+    margin-left: 720px;
+    margin-top: -500px;
   }
 }

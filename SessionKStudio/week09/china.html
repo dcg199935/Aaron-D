@@ -8,76 +8,65 @@
   </head>
   <body>
     <div id="laptop">
-      <img class="dragon" src="dragon.png" />
       <div class="headline">CHINA CHALET</div>
-      <div class="title">NEO CHINESE RESTAURANT and SPACE</div>
-      <img class="delivery" src="delivery.png" />
-      <div class="back"></div>
 
-      <p>
+      <div class="title">NEO CHINESE RESTAURANT and SPACE</div>
+
+      <div id="text">
         Welcome to China Chalet! We have been serving our classic & comtemporary
         Chinese cuisine to businesses and residents in Manhattan's Financial
-        District since 1975 and we are proud to announce the opening our our NEW
-        MIDTOWN LOCATION!. Our diversified menus of Dim Sum, authentic Cantonese
-        and Szechuan cuisines and an American selection insures that there is
-        something for everyone. Make a reservation or place an order from our
-        new inter-active web site - try it once Wonton Soup 3.95
-      </p>
-    </div>
-
-    <div id="iphone">
-      <div id="menu">
-        <div class="headline">CHINA CHALET 華庭</div>
-        <div class="head">WE DELIVER</div>
-
-        <img class="meal" src="pic7.JPG" />
-        <h1>WE DELIVER</h1>
-        <div class="dishes">
-          <label class="container"
-            >Wonton Soup
-            <input type="checkbox" checked="checked" />
-            <span class="checkmark"></span>
-          </label>
-          <br />
-          <label class="container"
-            >Chicken Rice Soup
-            <input type="checkbox" />
-            <span class="checkmark"></span>
-          </label>
-          <br />
-          <label class="container"
-            >Wonton with Egg Drop
-            <input type="checkbox" />
-            <span class="checkmark"></span>
-          </label>
-          <br />
-          <label class="container"
-            >Velvet Corn Soup
-            <input type="checkbox" />
-            <span class="checkmark"></span>
-          </label>
-          <br />
-          <label class="container"
-            >Chicken Noodle Soup
-            <input type="checkbox" />
-            <span class="checkmark"></span>
-          </label>
-          <br />
-          <label class="container"
-            >Chicken Noodle Soup
-            <input type="checkbox" />
-            <span class="checkmark"></span>
-          </label>
-          <br />
-
-          Velvet Corn Soup 4.25
-          <br />
-          Chicken Chowder 4.95
-          <br />
-          Seafood Soup 5.95
-        </div>
-        <img class="table" src="table.png" />
+        District since 1975. Our diversified menus of Dim Sum, authentic
+        Cantonese and Szechuan cuisines and an American selection insures that
+        there is something for everyone. Make a reservation or place an order
+        from our new inter-active web site.
       </div>
+
+      <div id="textt">
+        WORKING HOURS <br />
+        MONDAY~SUNDAY 11:00AM~9:00PM MEALTIME <br />
+        FRIDAY~SUNDAY 10:00PM~4:00AM "❤"
+      </div>
+
+      <img class="dragon" src="dragon.png" />
+
+      <div id="slideshow-example" data-component="slideshow">
+        <div role="list">
+          <div class="slide">
+            <img src="pic01.JPG" alt="meal" width="500px" />
+          </div>
+          <div class="slide">
+            <img src="pic02.JPG" alt="meal" width="500px" />
+          </div>
+          <div class="slide">
+            <img src="pic03.JPG" alt="meal" width="500px" />
+          </div>
+          <div class="slide">
+            <img src="pic04.JPG" alt="meal" width="500px" />
+          </div>
+          <div class="slide">
+            <img src="pic05.JPG" alt="meal" width="500px" />
+          </div>
+          <div class="slide">
+            <img src="pic06.JPG" alt="meal" width="500px" />
+          </div>
+          <div class="slide">
+            <img src="pic07.JPG" alt="meal" width="500px" />
+          </div>
+        </div>
+      </div>
+
+      <img class="blink" src="cookie.png" style="width: 200px;" />
+
+      <audio id="myAudio" controls autoplay>
+        <source src="fan.ogg" type="audio/ogg" />
+        <source src="fan.mp3" type="audio/mpeg" />
+      </audio>
+
+      <audio id="myAudio" autoplay>
+        <source src="fan.mp3" />
+      </audio>
+
+      <p id="demo"></p>
     </div>
 
     <script>
@@ -104,6 +93,26 @@
           slides[index].classList.add("active");
         }, time);
       }
+
+      function myFunction() {
+        var x = document.getElementById("myAudio").autoplay;
+        document.getElementById("demo").innerHTML = x;
+      }
     </script>
+
+    <div id="iphone">
+      <div id="menu">
+        <div class="headline">CHINA CHALET</div>
+        <img class="dragon" src="dragon.png" />
+        <img class="label" src="label.png" alt="meal" width="300px" />
+        <div class="head">WE DELIVER</div>
+      </div>
+
+      <img class="cai" src="menu.png" />
+    </div>
+
+    <script></script>
+
+    <div id="projector"></div>
   </body>
 </html>
