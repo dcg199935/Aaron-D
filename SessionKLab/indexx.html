@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Starter Code</title>
+    <style>
+      /* you can write styles for the button! Try your own */
+      button {
+        padding: 5px;
+        font-size: 16px;
+        font-family: monospace;
+        text-transform: uppercase;
+        background-color: transparent;
+        margin-left: 460px;
+        position: relative;
+      }
+      button:hover {
+        cursor: pointer;
+        background-color: rgb(24, 240, 150);
+        color: #fff;
+      }
+      .image {
+        margin: 50px;
+        margin-left: 550px;
+        position: relative;
+        z-index: 1;
+      }
+      #photos {
+        width: 200px;
+        margin-left: 570px;
+        margin-top: 400px;
+        position: relative;
+        z-index: 3;
+      }
+      #container {
+        margin-top: -400px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="pics">
+      <img id="photos" src="LTR.png" />
+      <div id="container">
+        <img class="image" src="iphone.png" width="250px" />
+      </div>
+
+      <button id="button" onclick="clicking()" type="button">
+        Click me to see what you do on dating apps!
+      </button>
+    </div>
+
+    <!-- script tag at the end of the body -->
+    <script>
+      function handleClick() {
+        console.log("this function runs every time you click the button");
+        // Take a look at index-comments.html and index-final.html to get ideas for how you can generate and manipulate content on the screen when this function runs
+        // what if we randomized the images on the screen every time we clicked the button? How would we have to change our in-class code?
+        // Try to do additional things inside here too. Learn how to use style in JavaScript to change colors, typography, etc.
+      }
+      const array = [
+        "CYBER.png",
+        "catfishing.png",
+        "LTR.png",
+        "weed.png",
+        "FWB.png",
+        "weeed.png",
+      ];
+
+      function clicking() {
+        document.getElementById("photos").src =
+          array[Math.floor(Math.random() * array.length)];
+      }
+      console.log(photos);
+    </script>
+  </body>
+</html>
