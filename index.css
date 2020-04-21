@@ -24,25 +24,7 @@ p {
   color: yellow;
 }
 
-@keyframes bounce from {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(100px);
-  }
-}
-#circle02 {
-  position: absolute;
-  z-index: 4;
-  width: 400px;
-  height: 400px;
-  background-color: yellow;
-  /* margin-top: 100px;
-      margin-bottom: 100px;
-      margin-right: 150px;
-      margin-left: 450px;*/
-  border-radius: 50%;
-  animation: bounce 2s 10 alternate-reverse;
+#lab {
+  margin-left: 600px;
+  margin-top: -1080px;
 }
