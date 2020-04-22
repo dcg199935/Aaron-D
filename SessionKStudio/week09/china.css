@@ -219,3 +219,30 @@ body {
     margin-top: -500px;
   }
 }
+
+@media screen and (min-device-width: 2500px) and (max-device-width: 3500px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  #laptop {
+    display: none;
+  }
+  #iphone {
+    display: none;
+  }
+
+  #tv{
+    display:block;
+  }
+
+  body{
+    background-image: url(glitchgif.gif);
+  }
+  .headline {
+    font-family: Luminari;
+    font-size: 90px;
+    color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #a0252b;
+    margin-left: 15px;
+    margin-top: 15px;
+    position: relative;
+    z-index: 5;
+  }
