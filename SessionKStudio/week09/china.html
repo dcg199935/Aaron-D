@@ -112,16 +112,29 @@
     </div>
 
     <div id="tv">
-      <img class="disco" src="disco.gif" />
+      <img class="disco" src="sparkle.gif" />
+      <h1 contenteditable spellcheck="false">cHiNa ChAlEt/telahc anihc</h1>
       <h3 class="glow">CHINA CHALET</h3>
       <audio id="myAudio" autoplay>
         <source src="fan.mp3" />
       </audio>
+
+      <select onchange="handleChange()">
+        <option disabled selected>For</option>
+        <option value="add your value">Posting</option>
+        <option value="add your value">This</option>
+        <option value="add your value">Assignment</option>
+        <option value="add your value">Late</option>
+        <option value="add your value">:(</option>
+      </select>
     </div>
     <script>
       function myFunction() {
         var x = document.getElementById("myAudio").autoplay;
         document.getElementById("demo").innerHTML = x;
+      }
+      function handleChange() {
+        console.log("filter changed, now make me do something!");
       }
     </script>
   </body>
