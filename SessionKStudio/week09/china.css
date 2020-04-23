@@ -227,7 +227,6 @@ body {
   #iphone {
     display: none;
   }
-
   #tv{
     display:block;
   }
@@ -235,13 +234,13 @@ body {
   body{
     background-image: url(glitchgif.gif);
   }
-  .headline {
+  .line {
     font-family: Luminari;
-    font-size: 90px;
-    color: white;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: #a0252b;
-    margin-left: 15px;
+    font-size: 300px;
+    color:#06f3f9;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: black;
+    margin-left: 100px;
     margin-top: 15px;
     position: relative;
     z-index: 5;

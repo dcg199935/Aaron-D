@@ -114,7 +114,21 @@
     <script></script>
 
     <div id="tv">
-      <div class="headline">CHINA CHALET</div>
+      <div class="line">CHINA CHALET</div>
+      <audio id="myAudio" controls autoplay>
+        <source src="fan.ogg" type="audio/ogg" />
+        <source src="fan.mp3" type="audio/mpeg" />
+      </audio>
+
+      <audio id="myAudio" autoplay>
+        <source src="fan.mp3" />
+      </audio>
     </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myAudio").autoplay;
+        document.getElementById("demo").innerHTML = x;
+      }
+    </script>
   </body>
 </html>
