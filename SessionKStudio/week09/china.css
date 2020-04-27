@@ -19,23 +19,24 @@ body {
     background-color: #f4d219;
   }
 
-  [data-component="slideshow"] .slide {
-    display: none;
-    text-align: center;
-  }
-
-  [data-component="slideshow"] .slide.active {
-    display: block;
-  }
-  .slide {
-    margin-left: 5px;
-  }
-
   .meal {
     width: 80%;
     margin-left: 35px;
   }
-
+  .image {
+    margin-top: 10px;
+  }
+  .hua {
+    margin-left: 10px;
+    position: relative;
+    z-index: 1;
+  }
+  .ting {
+    margin-left: 8px;
+    margin-top: -500px;
+    position: relative;
+    z-index: 3;
+  }
   .dragon {
     position: relative;
     width: 100px;
@@ -43,16 +44,6 @@ body {
     width: 70px;
     margin-top: -30px;
     margin-left: 280px;
-  }
-
-  h1 {
-    font-family: Cochin;
-    font-style: italic;
-    font-size: 300%;
-    color: #a0252b;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #a0252b;
-    margin-left: 30px;
   }
 
   .dragon {
@@ -66,24 +57,6 @@ body {
     to {
       -webkit-transform: rotate(0deg);
     }
-  }
-  .headline {
-    font-family: Fugaz One;
-    font-size: 100px;
-    color: #f4d219;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #a0252b;
-
-    position: relative;
-    z-index: 5;
-  }
-
-  .label {
-    position: relative;
-    width: 118%;
-    margin-left: -30px;
-    margin-top: -110px;
-    z-index: 6;
   }
 
   .delivery {

@@ -1,12 +1,67 @@
+body {
+  background-color: black;
+}
+
+.me {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 80px;
+}
+
+.mee {
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 230px;
+}
+
+.meee {
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 80px;
+}
+.meeee {
+  margin-left: 50px;
+}
+.card {
+  margin-left: 900px;
+  margin-top: 300px;
+}
+
 h1 {
-  color: #2de0ca;
-  font-family: Blackoak Std;
-  font-size: 25px;
+  position: absolute;
+  color: #26f930;
+  font-family: Righteous;
+  font-size: 100px;
   font-style: italic;
-  margin-top: 15px;
+  margin-top: 1500px;
   margin-left: 160px;
 }
 
+h1 > span {
+  position: absolute;
+  transition: translateY(-50%);
+  margin-left: -250px;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  font-family: Righteous;
+  font-style: italic;
+  font-size: 100px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  background: linear-gradient(#262626, #eaeaea, #262626);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+h1 > span:nth-child(1) {
+  z-index: 2;
+}
+h1 > span:nth-child(2) {
+  z-index: 1;
+  text-shadow: 1px 1px 0 #262626, 2px 2px 0 #262626, 3px 3px 0 #262626,
+    4px 4px 0 #262626, 5px 5px 0 #262626, 1px 1px 0 #262626,
+    6px 20px 20px rgba(0, 0, 0, 1), -1px -1px 0 #fff;
+}
 h3 {
   margin-top: 15px;
   margin-left: 160px;
@@ -26,5 +81,5 @@ p {
 
 #lab {
   margin-left: 800px;
-  margin-top: -1080px;
+  margin-top: 180px;
 }
