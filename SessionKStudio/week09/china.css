@@ -237,7 +237,7 @@ body {
     font-size: 300pt;
     margin-top: 90px;
     font-style: italic;
-    color: black;
+    color: #e2000c;
     text-align: center;
     margin-top: 700px;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -247,7 +247,7 @@ body {
     z-index: 1;
   }
 
-  @-webkit-keyframes glow {
+  /* @-webkit-keyframes glow {
     from {
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
         0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
@@ -257,17 +257,47 @@ body {
       text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
         0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
+  }*/
+  .lineup {
+    position: absolute;
+    z-index: 3;
+    margin-top: -1000px;
+    margin-left: 50px;
+    width: 600px;
   }
-
+  .mat {
+    position: absolute;
+    z-index: 3;
+    margin-top: -620px;
+    margin-left: 200px;
+    width: 400px;
+  }
+  .lin {
+    position: absolute;
+    z-index: 3;
+    margin-left: 180px;
+    margin-top: -400px;
+  }
+  .meal {
+    position: absolute;
+    margin-left: 2700px;
+    margin-top: -1600px;
+  }
+  .list {
+    position: absolute;
+    z-index: 3;
+    margin-left: 2500px;
+    margin-top: -800px;
+  }
   .plate {
     margin-left: 300px;
-    margin-top: -1500px;
+    margin-top: -1600px;
     position: absolute;
     z-index: 2;
   }
 
   .plate {
-    -webkit-animation: rotation 2s infinite linear;
+    -webkit-animation: rotation 4s infinite linear;
   }
 
   @-webkit-keyframes rotation {
@@ -286,7 +316,7 @@ body {
   }
 
   .techno {
-    -webkit-animation: rotation 2s infinite linear;
+    -webkit-animation: rotation 4s infinite linear;
   }
 
   @-webkit-keyframes rotation {
