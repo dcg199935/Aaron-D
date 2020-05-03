@@ -26,60 +26,22 @@ body {
   .image {
     margin-top: 10px;
   }
-  .hua {
-    margin-left: 10px;
-    position: relative;
-    z-index: 1;
-  }
-  .ting {
-    margin-left: 10px;
-    margin-top: -500px;
-    position: relative;
-    z-index: 3;
-  }
-  .dragon {
-    position: relative;
-    width: 100px;
-    z-index: 7;
-    width: 70px;
+  .online {
+    margin-left: 5px;
     margin-top: -30px;
-    margin-left: 280px;
   }
-
-  .dragon {
-    -webkit-animation: rotation 2s infinite linear;
-  }
-
-  @-webkit-keyframes rotation {
-    from {
-      -webkit-transform: rotate(360deg);
-    }
-    to {
-      -webkit-transform: rotate(0deg);
-    }
-  }
-
-  .delivery {
-    width: 900px;
-    margin-left: 200px;
-    margin-top: 30px;
+  .hua {
+    margin-left: 120px;
+    margin-top: -50px;
     position: relative;
-    z-index: 1;
+    z-index: 4;
+  }
+  .box {
+    margin-left: 8px;
+    margin-top: 10px;
   }
 
-  .dishes {
-    color: #a0252b;
-    font-family: cochin;
-    font-style: italic;
-    font-size: 150%;
-    margin-left: 30px;
-  }
-  .cai {
-    width: 320px;
-    margin-left: 25px;
-    margin-top: -70px;
-  }
-}
+ 
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
   #laptop {
@@ -258,6 +220,12 @@ body {
         0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
   }*/
+  .chop {
+    position: absolute;
+    margin-top: -1650px;
+    margin-left: 100px;
+    width: 1000px;
+  }
   .lineup {
     position: absolute;
     z-index: 3;
@@ -288,6 +256,9 @@ body {
     z-index: 3;
     margin-left: 2500px;
     margin-top: -800px;
+  }
+  #myAudio {
+    margin-left: 200px;
   }
   .plate {
     margin-left: 300px;
