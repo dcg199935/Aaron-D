@@ -1,13 +1,13 @@
 body {
   background-color: black;
 }
-
-.me {
-  position: absolute;
-  margin-left: 200px;
-  margin-top: 80px;
+.panel1 {
+  margin-left: 400px;
+  margin-top: 60px;
 }
-
+.panel2 {
+  margin-left: 60px;
+}
 .mee {
   position: absolute;
   margin-left: 500px;
@@ -16,8 +16,8 @@ body {
 
 .meee {
   position: absolute;
-  margin-left: 800px;
-  margin-top: 80px;
+  margin-left: 900px;
+  margin-top: -480px;
 }
 .meeee {
   margin-left: 50px;
@@ -25,6 +25,23 @@ body {
 .card {
   margin-left: 900px;
   margin-top: 300px;
+}
+
+.finale {
+  margin-top: -690px;
+  margin-left: 415px;
+}
+.boy {
+  margin-left: 415px;
+  margin-top: 60px;
+}
+.sm {
+  margin-left: 415px;
+  margin-top: 75px;
+}
+
+h3 {
+  font-family: Fugaz one;
 }
 
 h1 {
@@ -61,22 +78,6 @@ h1 > span:nth-child(2) {
   text-shadow: 1px 1px 0 #262626, 2px 2px 0 #262626, 3px 3px 0 #262626,
     4px 4px 0 #262626, 5px 5px 0 #262626, 1px 1px 0 #262626,
     6px 20px 20px rgba(0, 0, 0, 1), -1px -1px 0 #fff;
-}
-h3 {
-  margin-top: 15px;
-  margin-left: 160px;
-  font-family: Luminari;
-  font-size: 20px;
-}
-
-p {
-  margin-left: 970px;
-  margin-top: -45px;
-  font-family: Luminari;
-  font-family: Blackoak Std;
-  font-size: 25px;
-  font-style: italic;
-  color: yellow;
 }
 
 #lab {
