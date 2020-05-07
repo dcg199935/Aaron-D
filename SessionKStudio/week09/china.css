@@ -372,13 +372,27 @@ body {
     width: 3500px;
     height: 2000px;
     background-color: black;
-    margin-top: 3000px;
+    margin-top: 6000px;
     z-index: 1;
   }
   .disco {
     position: absolute;
-    margin-top: 2500px;
-    margin-left: 500px;
+    margin-top: 2600px;
+    margin-left: 470px;
     z-index: 5;
+  }
+  .girl {
+    position: absolute;
+    margin-top: 5000px;
+  }
+  .girl2 {
+    position: absolute;
+    margin-top: 5000px;
+    margin-left: 300px;
+  }
+  .girl3 {
+    position: absolute;
+    margin-top: 5000px;
+    margin-left: 600px;
   }
 }
