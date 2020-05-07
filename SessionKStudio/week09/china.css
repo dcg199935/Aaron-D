@@ -341,6 +341,10 @@ body {
     margin-left: 760px;
     z-index: 3;
   }
+  .myAudio2 {
+    position: relative;
+    margin-top: 3000px;
+  }
 
   .thunder {
     position: absolute;
@@ -356,6 +360,13 @@ body {
     margin-left: -100px;
     margin-top: 1500px;
     z-index: 1;
+  }
+  .ball {
+    position: absolute;
+    margin-left: 1700px;
+    margin-top: 2800px;
+    margin-left: 500px;
+    z-index: 6;
   }
 
   .bubble {
@@ -381,18 +392,35 @@ body {
     margin-left: 470px;
     z-index: 5;
   }
+  p {
+    font-family: Faster One;
+    font-size: 450px;
+    -webkit-text-stroke-width: 9px;
+    -webkit-text-stroke-color: rgb(15, 206, 253);
+    color: rgb(243, 4, 4);
+    position: absolute;
+    margin-top: 4700px;
+    margin-left: 300px;
+    z-index: 8;
+  }
+  .tex {
+    position: absolute;
+    margin-top: 5700px;
+  }
+
   .girl {
     position: absolute;
     margin-top: 5000px;
+    margin-left: -330px;
   }
   .girl2 {
     position: absolute;
     margin-top: 5000px;
-    margin-left: 300px;
+    margin-left: 600px;
   }
   .girl3 {
     position: absolute;
     margin-top: 5000px;
-    margin-left: 600px;
+    margin-left: 1600px;
   }
 }
