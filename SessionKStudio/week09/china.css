@@ -304,4 +304,19 @@ body {
       -webkit-transform: rotate(0deg);
     }
   }
+  .color {
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: 3500px;
+    height: 2000px;
+    background-color: rgb(255, 0, 128);
+    margin-top: 500px;
+  }
+  .track {
+    position: absolute;
+    margin-top: 1200px;
+    margin-left: 500px;
+  }
 }
