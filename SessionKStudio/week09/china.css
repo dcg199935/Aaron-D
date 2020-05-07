@@ -263,8 +263,9 @@ body {
     margin-left: 2500px;
     margin-top: -800px;
   }
-  #myAudio {
+  .myAudio {
     margin-left: 200px;
+    margin-top: -1000px;
   }
   .plate {
     margin-left: 300px;
@@ -341,9 +342,12 @@ body {
     margin-left: 760px;
     z-index: 3;
   }
-  #myaudio {
+  .myaudio {
     position: relative;
-    margin-top: 3000px;
+    width: 500px;
+    margin-top: 4000px;
+    margin-left: 1000px;
+    z-index: 9;
   }
 
   .thunder {
@@ -399,28 +403,28 @@ body {
     -webkit-text-stroke-color: rgb(15, 206, 253);
     color: rgb(243, 4, 4);
     position: absolute;
-    margin-top: 1600px;
+    margin-top: 1000px;
     margin-left: 300px;
     z-index: 8;
   }
   .tex {
     position: absolute;
-    margin-top: 5700px;
+    margin-top: 2000px;
   }
 
   .girl {
     position: absolute;
-    margin-top: 5000px;
-    margin-left: -330px;
+    margin-top: 5300px;
+    margin-left: -1730px;
   }
   .girl2 {
     position: absolute;
-    margin-top: 5000px;
-    margin-left: 600px;
+    margin-top: 5300px;
+    margin-left: -800px;
   }
   .girl3 {
     position: absolute;
-    margin-top: 5000px;
-    margin-left: 1600px;
+    margin-top: 5300px;
+    margin-left: 200px;
   }
 }
