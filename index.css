@@ -1,6 +1,11 @@
 body {
   background-color: black;
 }
+.profile {
+  position: absolute;
+  margin-left: 73px;
+  margin-top: 27px;
+}
 .panel1 {
   margin-left: 400px;
   margin-top: 60px;
@@ -8,9 +13,16 @@ body {
 .panel2 {
   margin-left: 60px;
 }
+.k {
+  margin-top: -460px;
+  margin-left: -20px;
+}
+.k2 {
+  margin-left: -20px;
+}
 .mee {
   position: absolute;
-  margin-left: 500px;
+  margin-left: 600px;
   margin-top: 230px;
 }
 
@@ -20,7 +32,9 @@ body {
   margin-top: -480px;
 }
 .meeee {
-  margin-left: 50px;
+  position: absolute;
+  margin-left: 400px;
+  margin-top: -200px;
 }
 .card {
   margin-left: 900px;
@@ -28,7 +42,7 @@ body {
 }
 
 .finale {
-  margin-top: -690px;
+  margin-top: -510px;
   margin-left: 415px;
 }
 .boy {
