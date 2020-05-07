@@ -341,7 +341,7 @@ body {
     margin-left: 760px;
     z-index: 3;
   }
-  .myAudio2 {
+  #myaudio {
     position: relative;
     margin-top: 3000px;
   }
@@ -399,7 +399,7 @@ body {
     -webkit-text-stroke-color: rgb(15, 206, 253);
     color: rgb(243, 4, 4);
     position: absolute;
-    margin-top: 4700px;
+    margin-top: 1600px;
     margin-left: 300px;
     z-index: 8;
   }
