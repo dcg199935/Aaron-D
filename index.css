@@ -1,6 +1,13 @@
 body {
   background-color: black;
 }
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #e63e9a;
+}
 .profile {
   position: absolute;
   margin-left: 73px;
