@@ -67,11 +67,23 @@
   }
 
   .pic1 {
-    margin-left: 390px;
+    margin-left: 430px;
     margin-top: 50px;
   }
 
   .pic2 {
-    margin-top: 300px;
+    margin-top: 320px;
+  }
+
+  .pic3 {
+    margin-top: 370px;
+    margin-left: 250px;
+  }
+  .pic4 {
+    margin-top: 500px;
+  }
+  .pic5 {
+    margin-top: 600px;
+    margin-left: 300px;
   }
 }
