@@ -61,4 +61,9 @@
   #laptop {
     display: none;
   }
+
+  .pic1 {
+    margin-left: -5px;
+    margin-top: -5px;
+  }
 }
