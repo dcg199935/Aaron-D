@@ -1,0 +1,212 @@
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+    #iphone {
+      display: block;
+    }
+  
+    #laptop {
+      display: none;
+    }
+
+    body{
+        background-size:460%;
+    
+            background-image: linear-gradient(to right, #ffc103 , #008ad0);
+              background-image: url('2 copy.jpg');
+              
+          
+    }
+    
+@font-face { font-family: AppleGaramond-Light; src: url('AppleGaramond-Light.ttf'); } 
+    .aaron{
+    font-family:AppleGaramond-Light;
+    text-align: center;
+    color:black；
+    }
+
+
+
+    h3{
+        font-size:120px;
+        margin-top:10px;
+    }
+    .j26{
+        text-align: center;
+        font-family:AppleGaramond-Light;
+    }
+    .logo2{
+        margin-top:-250px;
+        width：100px;
+        text-align: center;
+      
+    }
+
+    .generative{
+        font-family:helvetica;
+      text-align:center;
+      margin-top:100px;
+      margin-left:30px;
+      width:300px;
+      height:20px;
+        background-color:white;
+        border: 2px solid black ;
+        border-radius: 8px;
+        
+    }
+
+    .profile{
+        margin-top:140px;
+        text-align: center;
+    }
+
+    .title1{
+        font-size:50px;
+    }
+
+}
+
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 2300px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+   
+    #laptop {
+      display:block;
+    }
+    #iphone {
+      display: none;
+    }
+
+    html {
+        scroll-behavior: smooth;
+      }
+     @font-face { font-family: AppleGaramond-Light; src: url('AppleGaramond-Light.ttf'); } 
+    
+    body{   background-attachment: fixed;position: relative;
+            background: linear-gradient(144deg, #1df0b9, #fbb2a2, #f3e401, #c46cff);
+            background-size: 800% 800%;
+        
+            -webkit-animation: AnimationName 22s ease infinite;
+            -moz-animation: AnimationName 22s ease infinite;
+            animation: AnimationName 22s ease infinite;
+        }
+        
+        @-webkit-keyframes AnimationName {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+        @-moz-keyframes AnimationName {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+        @keyframes AnimationName {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+    }
+      
+    #aaron{
+    color:white;
+    font-size :50pt;
+    font-family:AppleGaramond-Light;
+    margin-right:1400px;
+    margin-top:10px;
+    text-align: center;
+    -webkit-animation: glow 5s ease-in-out infinite alternate;
+    -moz-animation: glow 5s ease-in-out infinite alternate;
+    animation: glow 5s ease-in-out infinite alternate;
+  
+    }
+    @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #f553b7, 0 0 20px#f553b7, 0 0 30p#f553b7, 0 0 40px#f553b7, 0 0 50p#f553b7, 0 0 60px#f553b7, 0 0 70px#f553b7;
+        }
+        to {
+          text-shadow: 0 0 20px#f553b7, 0 0 30px#f553b7, 0 0 40px#f553b7, 0 0 50px#f553b7, 0 0 60px#f553b7, 0 0 70px#f553b7, 0 0 80px#f553b7;
+        }
+      }
+    }
+
+    .circle01{
+        margin-top:20px;
+        margin-left:10px;
+    }
+
+    button {
+        background:none;
+        border:none;
+    }
+    button:active{
+        background:none;
+        border:none;
+    }
+
+    #square01{
+        text-align:center;
+        display:none;
+    }
+
+    #square02{
+        text-align:center;
+        display:none;
+    }
+
+    #square03{
+        text-align:center;
+        display:none;
+    }
+
+    #square04{
+        text-align:center;
+        display:none;
+    }
+
+    .j26{
+    text-align: center;
+    font-family:AppleGaramond-Light;
+    }
+
+    .title1{
+        font-size:50px;
+    }
+
+
+    a:link {
+        color: red;
+      }
+      
+      /* visited link */
+      a:visited {
+        color:white;
+      }
+      
+      /* mouse over link */
+      a:hover {
+        color: rgb(122, 130, 247);
+      }
+      
+      /* selected link */
+      a:active {
+        color: blue;
+      }
+
+      a:link {
+        text-decoration: none;
+      }
+      
+      a:visited {
+        text-decoration: none;
+      }
+      
+      a:hover {
+        text-decoration: none;
+      }
+      
+      a:active {
+        text-decoration: none;
+      }
+
+
+}

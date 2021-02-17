@@ -1,0 +1,43 @@
+body{
+    background-color:black;
+}
+
+@font-face {font-family:CRT-64 ; src: url('CRT-64copy.otf');} 
+h3{
+    font-size:25pt;
+    font-family:CRT-64;
+    text-align: center;
+    color:#47F90D;
+    margin-top:200px;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    }
+    @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #47F90D, 0 0 20px #47F90D, 0 0 30px#47F90D, 0 0 40px #47F90D, 0 0 50px#47F90D, 0 0 60px #47F90D, 0 0 70px #47F90D;
+        }
+        to {
+          text-shadow: 0 0 20px #47F90D, 0 0 30px #47F90D, 0 0 40px #47F90D, 0 0 50px #47F90D, 0 0 60px #47F90D, 0 0 70px #47F90D, 0 0 80px #47F90D;
+        }
+      }
+
+
+    .j26{
+        border-radius: 25px;
+        color:#47F90D;
+        font-family:helvetica;
+        margin-top:90px;
+        margin-left:700px;
+        padding:20px;
+        width: 320px;
+        height:400px;
+        overflow:auto;
+        border: 1px solid #47F90D;
+        
+    }
+
+    .title1{
+        font-size:30px;
+        color:#fc009b ;
+    }
